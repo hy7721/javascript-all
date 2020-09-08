@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>논리연산</title>
+</head>
+<body>
+  <script>
+    // 논리연산
+    // and, or, not
+    // and = 곱 &&
+    // or = 합 ||
+    // true = 1. 0 이외의 모든 값은 true
+    // false = 0
+
+    document.write(`true || true : ${true || true} <br>`); //true
+    document.write(`true || false : ${true || false} <br>`); //true
+    document.write(`false || false : ${false || false} <br>`); //false
+
+    document.write(`true && true : ${true && true}`); //true
+  </script>
+</body>
+</html>
