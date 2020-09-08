@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>변수들의 연산</title>
+</head>
+<body>
+  <script>
+    var 변수하나 = 20;
+    var 변수둘 = 10;
+    var 변수셋 = 2;
+
+    document.write('변수하나 : ', 변수하나);
+    document.write('<br>');
+    document.write('변수둘 : ', 변수둘);
+    document.write('<br>');
+    document.write('변수셋 : ', 변수셋);
+    document.write('<br>');
+    document.write('변수하나%변수셋 : ', 변수하나%변수셋);
+    document.write('<br>');
+
+    //변수 선언 ES6
+    const 이름 = '이호준';
+    const 소속 = '무소속';
+
+    let 주소 = '한국';
+    주소 = '서울';
+
+    document.write(이름, '<br>');
+    document.write(주소, '<br>');
+    document.write(소속[0], '<br>');
+    document.write(소속[1], '<br>');
+    document.write(소속[2], '<br>');
+  </script>
+</body>
+</html>
