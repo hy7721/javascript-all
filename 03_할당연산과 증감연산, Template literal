@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>할당연산과 증감연산, Template literal</title>
+</head>
+<body>
+  <script>
+    var 이름 = '이호준';
+    var 나이 = 10;
+
+    document.write('제 이름은 ' + 이름 + ' 제 나이는 ' + 나이);
+
+    //template literal
+    document.write(`제 이름은 ${이름}입니다. 제 나이는 ${나이}입니다.`);
+  </script>
+</body>
+</html>
